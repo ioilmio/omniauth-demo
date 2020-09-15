@@ -25,5 +25,11 @@
 </table>
 
 <br>
-<%= link_to "Sign in with Github", user_github_omniauth_authorize_path %>
-<%= link_to 'New Post', new_post_path %>
+
+
+    <%=link_to 'Logout', destroy_user_session_path, method: :delete%>
+    <%= link_to 'New Post', new_post_path %>
+
+     <%=link_to "Sign in with Github", user_github_omniauth_authorize_path%> 
+     <%= link_to "Sign up", new_user_registration_path%> 
+     <%= link_to "Sign in", new_user_session_path%> 
