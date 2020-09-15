@@ -5,7 +5,7 @@ application up and running.
 
 Things you may want to cover:
 
-
+change for bash aliasing on commit 
 * Ruby version
 
 * System dependencies
